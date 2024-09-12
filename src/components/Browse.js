@@ -23,7 +23,7 @@ const Browse = () => {
     <div className='bg-black md:bg-transparent'>
       <Header/>
       {
-        showGptSearch ? (<GptSearch/>) : 
+        showGptSearch ? (<GptSearch/>) :  // toggle functionality
         (<> 
         <MainContainer/> 
         <SecondaryContainer/> 
